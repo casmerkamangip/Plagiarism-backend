@@ -6,11 +6,11 @@ import { cn } from "@/lib/utils";
 import { ThemeToggle } from "./theme-toggle";
 
 const navigation = [
-  { name: "Dashboard", href: "#", icon: Home },
-  { name: "Analytics", href: "#", icon: BarChart3 },
-  { name: "Users", href: "#", icon: Users },
+  { name: "Dashboard", href: "/dashboard", icon: Home },
+  { name: "Analytics", href: "/", icon: BarChart3 },
+  { name: "Users", href: "/users", icon: Users },
   { name: "Documents", href: "#", icon: FileText },
-  { name: "Settings", href: "#", icon: Settings },
+  { name: "Settings", href: "/settings", icon: Settings },
 ];
 
 export function Sidebar() {
